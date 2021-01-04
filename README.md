@@ -26,7 +26,7 @@ Most things that you can do manually in the browser can be done using Puppeteer!
 ### Installation
 
 NO INSTALLATION!
-Just import puppeteer from 'https://deno.land/x/puppeteer_deno/mod.ts'.
+Just import puppeteer from 'https://deno.land/x/pptr/mod.ts'.
 
 ### This veersion is `puppeteer-core`
 
@@ -47,7 +47,7 @@ of `Browser`, open pages, and then manipulate them with [Puppeteer's API](https:
 Save file as **example.ts**
 
 ```js
-import puppeteer from 'https://deno.land/x/puppeteer_deno/mod.ts';
+import puppeteer from 'https://deno.land/x/pptr/mod.ts';
 
 const browser = await puppeteer.launch({
   executablePath: '/usr/bin/google-chrome',
@@ -74,7 +74,7 @@ Puppeteer sets an initial page size to 800×600px, which defines the screenshot 
 Save file as **hn.js**
 
 ```js
-import puppeteer from 'https://deno.land/x/puppeteer_deno/mod.ts';
+import puppeteer from 'https://deno.land/x/pptr/mod.ts';
 
 const browser = await puppeteer.launch({
   executablePath: '/usr/bin/google-chrome',
@@ -101,7 +101,7 @@ See [`Page.pdf()`](https://github.com/puppeteer/puppeteer/blob/v5.5.0/docs/api.m
 Save file as **get-dimensions.js**
 
 ```js
-import puppeteer from 'https://deno.land/x/puppeteer_deno/mod.ts';
+import puppeteer from 'https://deno.land/x/pptr/mod.ts';
 
 const browser = await puppeteer.launch({
   executablePath: '/usr/bin/google-chrome',
