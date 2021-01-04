@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+import 'https://deno.land/x/domtype@1.0.1/domtype.d.ts';
 import { assert } from './assert.ts';
 import { helper, debugError } from './helper.ts';
 import { ExecutionContext } from './ExecutionContext.ts';
@@ -31,7 +31,6 @@ import {
   WrapElementHandle,
   UnwrapPromiseLike,
 } from './EvalTypes.ts';
-
 import { exists } from 'https://deno.land/std@0.83.0/fs/exists.ts';
 import { resolve } from 'https://deno.land/std@0.83.0/path/mod.ts';
 export interface BoxModel {
