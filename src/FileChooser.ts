@@ -15,7 +15,7 @@
  */
 
 import { ElementHandle } from './JSHandle.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { assert } from './assert.ts';
 
 /**

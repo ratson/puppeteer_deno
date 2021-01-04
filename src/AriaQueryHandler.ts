@@ -16,7 +16,7 @@
 
 import { InternalQueryHandler } from './QueryHandler.ts';
 import { ElementHandle, JSHandle } from './JSHandle.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { CDPSession } from './Connection.ts';
 import { DOMWorld, PageBinding, WaitForSelectorOptions } from './DOMWorld.ts';
 import { assert } from './assert.ts';

@@ -16,7 +16,7 @@
 
 import { assert } from './assert.ts';
 import { CDPSession } from './Connection.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 /**
  * Dialog instances are dispatched by the {@link Page} via the `dialog` event.

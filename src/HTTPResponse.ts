@@ -17,7 +17,7 @@ import { CDPSession } from './Connection.ts';
 import { Frame } from './FrameManager.ts';
 import { HTTPRequest } from './HTTPRequest.ts';
 import { SecurityDetails } from './SecurityDetails.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { decode as base64Decode } from 'https://deno.land/std@0.83.0/encoding/base64.ts';
 
 /**

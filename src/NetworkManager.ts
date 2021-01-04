@@ -16,7 +16,7 @@
 import { EventEmitter } from './EventEmitter.ts';
 import { assert } from './assert.ts';
 import { helper, debugError } from './helper.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { CDPSession } from './Connection.ts';
 import { FrameManager } from './FrameManager.ts';
 import { HTTPRequest } from './HTTPRequest.ts';

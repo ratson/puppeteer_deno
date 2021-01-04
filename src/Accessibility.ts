@@ -16,7 +16,7 @@
 
 import { CDPSession } from './Connection.ts';
 import { ElementHandle } from './JSHandle.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 /**
  * Represents a Node and the properties of it that are relevant to Accessibility.

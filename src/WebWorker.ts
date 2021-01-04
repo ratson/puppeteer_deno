@@ -18,7 +18,7 @@ import { debugError } from './helper.ts';
 import { ExecutionContext } from './ExecutionContext.ts';
 import { JSHandle } from './JSHandle.ts';
 import { CDPSession } from './Connection.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { EvaluateHandleFn, SerializableOrJSHandle } from './EvalTypes.ts';
 
 /**

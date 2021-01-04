@@ -35,7 +35,7 @@ import {
   EvaluateFnReturnType,
   UnwrapPromiseLike,
 } from './EvalTypes.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 // predicateQueryHandler and checkWaitForOptions are declared here so that
 // TypeScript knows about them when used in the predicate function below.

@@ -32,7 +32,7 @@ import { JSHandle, ElementHandle } from './JSHandle.ts';
 import { MouseButton } from './Input.ts';
 import { Page } from './Page.ts';
 import { HTTPResponse } from './HTTPResponse.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import {
   SerializableOrJSHandle,
   EvaluateHandleFn,

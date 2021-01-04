@@ -19,7 +19,7 @@ import { helper } from './helper.ts';
 import { Target } from './Target.ts';
 import { EventEmitter } from './EventEmitter.ts';
 import { Connection, ConnectionEmittedEvents } from './Connection.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { Page } from './Page.ts';
 import { Viewport } from './PuppeteerViewport.ts';
 

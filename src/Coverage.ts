@@ -16,7 +16,7 @@
 
 import { assert } from './assert.ts';
 import { helper, debugError, PuppeteerEventListener } from './helper.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { CDPSession } from './Connection.ts';
 
 import { EVALUATION_SCRIPT_URL } from './ExecutionContext.ts';

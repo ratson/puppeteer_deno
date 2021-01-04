@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 /**
  * The SecurityDetails class represents the security details of a

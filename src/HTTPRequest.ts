@@ -18,7 +18,7 @@ import { Frame } from './FrameManager.ts';
 import { HTTPResponse } from './HTTPResponse.ts';
 import { assert } from './assert.ts';
 import { debugError } from './helper.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { encode } from 'https://deno.land/std@0.83.0/encoding/base64.ts';
 
 /**

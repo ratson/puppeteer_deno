@@ -45,7 +45,7 @@ import { TimeoutSettings } from './TimeoutSettings.ts';
 import { FileChooser } from './FileChooser.ts';
 import { ConsoleMessage, ConsoleMessageType } from './ConsoleMessage.ts';
 import { PuppeteerLifeCycleEvent } from './LifecycleWatcher.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import {
   SerializableOrJSHandle,
   EvaluateHandleFn,

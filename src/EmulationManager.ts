@@ -15,7 +15,7 @@
  */
 import { CDPSession } from './Connection.ts';
 import { Viewport } from './PuppeteerViewport.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 export class EmulationManager {
   _client: CDPSession;

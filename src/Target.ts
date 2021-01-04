@@ -19,7 +19,7 @@ import { WebWorker } from './WebWorker.ts';
 import { CDPSession } from './Connection.ts';
 import { Browser, BrowserContext } from './Browser.ts';
 import { Viewport } from './PuppeteerViewport.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 
 /**
  * @public

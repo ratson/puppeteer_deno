@@ -16,7 +16,7 @@
 import { TimeoutError } from './Errors.ts';
 import { debug } from './Debug.ts';
 import { CDPSession } from './Connection.ts';
-import { Protocol } from '../vendor/devtools-protocol/types/protocol.d.ts';
+import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
 import { CommonEventEmitter } from './EventEmitter.ts';
 import { assert } from './assert.ts';
 import { decode } from 'https://deno.land/std@0.83.0/encoding/base64.ts';
