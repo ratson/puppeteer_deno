@@ -30,7 +30,7 @@ export interface ChromeArgOptions {
  * @public
  */
 export interface LaunchOptions {
-  executablePath: string;
+  executablePath?: string;
   ignoreDefaultArgs?: boolean | string[];
   handleSIGINT?: boolean;
   handleSIGTERM?: boolean;
