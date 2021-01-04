@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import 'https://deno.land/x/domtype@1.0.1/domtype.d.ts';
+import 'https://deno.land/x/domtype@1.0.2/domtype.d.ts';
+
 import { WaitForSelectorOptions, DOMWorld } from './DOMWorld.ts';
 import { ElementHandle, JSHandle } from './JSHandle.ts';
 import { ariaHandler } from './AriaQueryHandler.ts';
