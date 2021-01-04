@@ -19,7 +19,7 @@ const debugProtocolSend = debug('puppeteer:protocol:SEND ►');
 const debugProtocolReceive = debug('puppeteer:protocol:RECV ◀');
 
 import { Protocol } from '../vendor/devtools-protocol/protocol.d.ts';
-import { ProtocolMapping } from '../vendor/devtools-protocol/types/protocol-mapping.d.ts';
+import { ProtocolMapping } from '../vendor/devtools-protocol/protocol-mapping.d.ts';
 import { ConnectionTransport } from './ConnectionTransport.ts';
 import { EventEmitter } from './EventEmitter.ts';
 
