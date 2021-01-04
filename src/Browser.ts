@@ -41,7 +41,7 @@ export interface WaitForTargetOptions {
  *
  * @public
  */
-export const enum BrowserEmittedEvents {
+export enum BrowserEmittedEvents {
   /**
    * Emitted when Puppeteer gets disconnected from the Chromium instance. This
    * might happen because of one of the following:
@@ -505,7 +505,7 @@ export class Browser extends EventEmitter {
   }
 }
 
-export const enum BrowserContextEmittedEvents {
+export enum BrowserContextEmittedEvents {
   /**
    * Emitted when the url of a target inside the browser context changes.
    * Contains a {@link Target} instance.

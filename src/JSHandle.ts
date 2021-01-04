@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import 'https://deno.land/x/domtype@1.0.2/domtype.d.ts';
+import 'https://deno.land/x/domtype@1.0.3/mod.ts';
 
 import { assert } from './assert.ts';
 import { helper, debugError } from './helper.ts';
@@ -387,10 +387,12 @@ export class ElementHandle<
         return false;
       }
       const visibleRatio = await new Promise((resolve) => {
-        const observer = new IntersectionObserver((entries) => {
-          resolve(entries[0].intersectionRatio);
-          observer.disconnect();
-        });
+        const observer = new IntersectionObserver(
+          (entries: IntersectionObserverEntry[]) => {
+            resolve(entries[0].intersectionRatio);
+            observer.disconnect();
+          }
+        );
         observer.observe(element);
       });
       if (visibleRatio !== 1.0) {
@@ -917,10 +919,12 @@ export class ElementHandle<
     return await this.evaluate<(element: Element) => Promise<boolean>>(
       async (element) => {
         const visibleRatio = await new Promise<number>((resolve) => {
-          const observer = new IntersectionObserver((entries) => {
-            resolve(entries[0].intersectionRatio);
-            observer.disconnect();
-          });
+          const observer = new IntersectionObserver(
+            (entries: IntersectionObserverEntry[]) => {
+              resolve(entries[0].intersectionRatio);
+              observer.disconnect();
+            }
+          );
           observer.observe(element);
         });
         return visibleRatio > 0;

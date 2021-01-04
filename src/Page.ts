@@ -55,10 +55,7 @@ import {
   UnwrapPromiseLike,
 } from './EvalTypes.ts';
 import { PDFOptions, paperFormats, PaperFormat } from './PDFOptions.ts';
-import {
-  decode,
-  encode,
-} from 'https://deno.land/std@0.83.0/encoding/base64.ts';
+import { decode } from 'https://deno.land/std@0.83.0/encoding/base64.ts';
 
 /**
  * @public
@@ -156,7 +153,7 @@ interface ScreenshotOptions {
  *
  * @public
  */
-export const enum PageEmittedEvents {
+export enum PageEmittedEvents {
   /** Emitted when the page closes. */
   Close = 'close',
   /**
