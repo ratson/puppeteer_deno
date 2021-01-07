@@ -22,7 +22,7 @@ import { ChromeArgOptions, LaunchOptions } from './LaunchOptions.ts';
 import { BrowserOptions } from './BrowserConnector.ts';
 import { Product } from './Product.ts';
 import { assert } from './assert.ts';
-import { join, resolve } from 'https://deno.land/std@0.83.0/path/mod.ts';
+import { join } from 'https://deno.land/std@0.83.0/path/mod.ts';
 import { existsSync } from 'https://deno.land/std@0.83.0/fs/exists.ts';
 
 /**
@@ -185,8 +185,7 @@ class ChromeLauncher implements ProductLauncher {
       args = [],
       userDataDir = null,
     } = options;
-    if (userDataDir)
-      chromeArguments.push(`--user-data-dir=${resolve(userDataDir)}`);
+    if (userDataDir) chromeArguments.push(`--user-data-dir=${userDataDir}`);
     if (devtools) chromeArguments.push('--auto-open-devtools-for-tabs');
     if (headless) {
       chromeArguments.push('--headless', '--hide-scrollbars', '--mute-audio');

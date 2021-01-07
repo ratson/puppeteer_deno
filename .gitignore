@@ -8,7 +8,6 @@
 .DS_Store
 *.swp
 *.pyc
-.vscode
 package-lock.json
 yarn.lock
 /node6
