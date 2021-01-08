@@ -2,7 +2,7 @@
 
 ## Full featured Puppeteer for Deno
 
-<img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right">
+<img src="https://user-images.githubusercontent.com/48787108/103984976-73539300-51cb-11eb-9d2e-655e99c9c92f.png" height="200" align="right">
 
 ###### [API](https://github.com/puppeteer/puppeteer/blob/v5.5.0/docs/api.md) | [FAQ](#faq) | [Contributing](https://github.com/puppeteer/puppeteer/blob/main/CONTRIBUTING.md) | [Troubleshooting](https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md)
 
