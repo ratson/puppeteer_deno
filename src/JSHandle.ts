@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import 'https://deno.land/x/domtype/mod.ts';
+import '../domtype/mod.ts';
 
 import { assert } from './assert.ts';
 import { helper, debugError } from './helper.ts';

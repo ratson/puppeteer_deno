@@ -12901,11 +12901,6 @@ interface Navigator
   vibrate(pattern: number | number[]): boolean;
 }
 
-declare var Navigator: {
-  prototype: Navigator;
-  new (): Navigator;
-};
-
 interface NavigatorAutomationInformation {
   readonly webdriver: boolean;
 }
